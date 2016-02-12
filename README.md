@@ -29,3 +29,7 @@ Try not to:
 * be too technical. Focus on the pain of the users.
 * be too brief. You need to do more than tell people how to use it. You have to tell them why they should.
 * be too broad. It would be great if everyone used your open source project. But it's better to focus on a clear, small case where this solution is the best. First, find people who care more than anyone else. Second, make them care even more.
+
+Projects using Excalibur
+------------------------
+* [autorepr](https://github.com/wolever/autorepr), which makes civilized string representations in Python
