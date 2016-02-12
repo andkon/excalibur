@@ -1,5 +1,7 @@
-``excalibur``: an unsupervised leader-finding process
+``excalibur``: a template for making great readmes
 ====================================================
+
+> "Too many developers forget that software development, even open-source, is 20% code and 80% people." -[bphogan](https://news.ycombinator.com/item?id=11083033)
 
 Camelot is a big place with a lot of problems, but there's one we care about. *In this first paragraph, you must explain what that problem is.* Our problem is that Camelot needs a leader.
 
