@@ -17,7 +17,7 @@ When in doubt, make installation a single line.
 Usage
 -----
 
-``excalibur`` consists of a single function, but your magical and awesome package may consist of more. #Here's where you briefly describe what each function does.# ``can_become_king`` accepts a single Django user, and returns a bool. What's more, this method makes sense: it tells you what it'll return, and it tells you what it needs. It doesn't matter that ``excalibur`` is a sword. What the sword does matters far more.
+``excalibur`` consists of a single function*, but your magical and awesome package may consist of more. Here's where you briefly describe what each function does.* ``can_become_king`` accepts a single Django user, and returns a bool. *What's more, this method makes sense: it tells you what it'll return, and it tells you what it needs. It doesn't matter that ``excalibur`` is a sword. What the sword does matters far more.*
 
     excalibur = Excalibur()
     arthur = User.objects.get(first_name="Arthur")
