@@ -35,3 +35,8 @@ Try not to:
 Projects using Excalibur
 ------------------------
 * [autorepr](https://github.com/wolever/autorepr), which makes civilized string representations in Python
+
+
+Further Reading
+---------------
+* [How to maintain a successful open source project](https://medium.com/code-zen/how-to-maintain-a-successful-open-source-project-aaa2a5437d3a#.bx4dhpjom), by [shazow](https://github.com/shazow)
