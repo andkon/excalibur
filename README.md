@@ -3,11 +3,11 @@
 
 > "Too many developers forget that software development, even open-source, is 20% code and 80% people." -[bphogan](https://news.ycombinator.com/item?id=11083033)
 
-Camelot is a big place with a lot of problems, but there's one we care about. *In this first paragraph, you must explain what that problem is.* Our problem is that Camelot needs a leader.
+Camelot is a big place with a lot of problems. In this first paragraph, you must explain what you care about, and what your problem is. The problem we care about is that Camelot needs a leader.
 
-Camelot needs a solution, and ``excalibur`` is the *(clever -- maybe even cheeky)* name of the one thing that solves this one problem best. *It sounds almost magical in how it could simply solve the problems above - problems that many people have tried to solve before. Now, you explain how it solves those problems:* ``excalibur`` tells you instantly whether or not a person is that leader.
+Fortunately, ``excalibur`` is here, and it solves this one problem better than anything else. It almost magically solve a problem that many people have tried to solve before. Because of that, you must explain how it solves this problem: ``excalibur`` tells you instantly whether or not a person is the leader that Camelot needs.
 
-*In this final introductory paragraph, you explain how* ``excalibur`` works differently than most other attempted solutions. Specifically, it's hard to pull out of a stone, so only real leaders can do it.
+In this final introductory paragraph, you explain how ``excalibur`` works differently than most other attempted solutions. Specifically, Excalibur is really hard to pull out of a stone, so only real leaders can do it.
 
 Installation
 ------------
@@ -19,7 +19,7 @@ When in doubt, make installation a single line.
 Usage
 -----
 
-``excalibur`` consists of a single function*, but your magical and awesome package may consist of more. Here's where you briefly describe what each function does.* ``can_become_king`` accepts a single Django user, and returns a bool. *What's more, this method makes sense: it tells you what it'll return, and it tells you what it needs. It doesn't matter that ``excalibur`` is a sword. What the sword does matters far more.*
+``excalibur`` consists of a single function, but your magical and awesome package may consist of more. Here's where you briefly describe what each function does. ``can_become_king`` accepts a single Django user, and returns a bool. This method makes ``excalibur`` make sense, thanks to its name, its documentation, and the way it fits in with how Python and Django devs write code.
 
     excalibur = Excalibur()
     arthur = User.objects.get(first_name="Arthur")
