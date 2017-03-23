@@ -3,23 +3,29 @@
 
 > "Too many developers forget that software development, even open-source, is 20% code and 80% people." -[bphogan](https://news.ycombinator.com/item?id=11083033)
 
-Camelot is a big place with a lot of problems. In this first paragraph, you must explain what you care about, and what your problem is. The problem we care about is that Camelot needs a leader.
+### In this first section, you must explain what you care about, and what your problem is. You can then move on to explaining what your solution is, before concluding with how it works differently from most solutions.
 
-Fortunately, ``excalibur`` is here, and it solves this one problem better than anything else. It almost magically solve a problem that many people have tried to solve before. Because of that, you must explain how it solves this problem: ``excalibur`` tells you instantly whether or not a person is the leader that Camelot needs.
+Camelot is a big place with a lot of problems. Camelot is in desperate need of a leader.
 
-In this final introductory paragraph, you explain how ``excalibur`` works differently than most other attempted solutions. Specifically, Excalibur is really hard to pull out of a stone, so only real leaders can do it.
+Fortunately, ``excalibur`` is here, and it solves the problem of leader-finding better than anything else. It does so magically, and instantly. ``excalibur`` tells you whether or not a person is the leader that Camelot needs.
+
+``excalibur`` works differently than most other attempted solutions. Specifically, Excalibur is really hard to pull out of a stone, so only real leaders can do it.
 
 Installation
 ------------
 
     $ pip install excalibur
 
-When in doubt, make installation a single line.
+When in doubt, make installation a single line, then follow up with more complicated or platform-specific instructions:
+
+    $ sudo easy_install excalibur
 
 Usage
 -----
 
-``excalibur`` consists of a single function, but your magical and awesome package may consist of more. Here's where you briefly describe what each function does. ``can_become_king`` accepts a single Django user, and returns a bool. This method makes ``excalibur`` make sense, thanks to its name, its documentation, and the way it fits in with how Python and Django devs write code.
+``excalibur`` consists of a single function, but your magical and awesome package may consist of more. Here's where you briefly describe what each function does. 
+
+``can_become_king()`` accepts a Django user object, and returns a bool. This method makes ``excalibur`` make sense, thanks to its name, its documentation, and the way it fits in with how Python and Django devs write code.
 
     excalibur = Excalibur()
     arthur = User.objects.get(first_name="Arthur")
